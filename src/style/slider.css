@@ -1,0 +1,21 @@
+.slider__wrapper{
+ margin-top: -70px;
+}
+.slider__content{
+ margin-top: 60px;
+}
+.slider__content p{
+ font-size: .9rem;
+}
+
+.slider__btn{
+ padding: 7px 15px;
+ background: #f5b70a;
+ color: #fff;
+ border: none;
+ outline: none;
+ border-radius: 5px;
+}
+.slider__btn a{
+ color: #fff;
+}

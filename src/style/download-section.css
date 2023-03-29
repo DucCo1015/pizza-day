@@ -1,0 +1,52 @@
+.app__content{
+ background: #f5b70a;
+ border-radius: 10px;
+}
+.app__content h5{
+ color: #0a071a;
+ margin-top: 10px;
+ text-align: center;
+}
+.app__content h2{
+ color: #0a071a;
+ font-weight: 500;
+}
+.app__content p{
+ color: #fff;
+}
+.btn__apple
+{
+ background: #0a071a;
+ border: none;
+ outline: none;
+ padding: 7px 25px;
+ border-radius: 5px;
+}
+.btn__android{
+ background: #fff;
+ border: none;
+ outline: none;
+ padding: 7px 25px;
+ border-radius: 5px;                       
+}
+.btn__apple a ,
+.btn__android a{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: .5rem;
+}
+.btn__apple a{
+ color: #fff;
+}
+.btn__android a{
+ color: #0a071a !important;
+}
+.btn__apple a i{
+ font-size: 1.3rem;
+}
+.btn__android a i{
+ color: #0a071a;
+ font-size: 1.3rem;
+}
+
