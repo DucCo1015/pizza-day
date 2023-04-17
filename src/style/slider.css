@@ -19,3 +19,23 @@
 .slider__btn a{
  color: #fff;
 }
+
+@media only screen and (max-width: 992px){
+  .slider__content h2{
+    font-size: 1.5rem;
+  }
+  .slider__content p{
+    font-size: 0.8rem;
+  }
+  .slider__content .btn{
+    padding: 5px 20px;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and(max-width:768px){
+  .slider__content{
+    text-align: center;
+    padding-left: 0px;
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import {Container, Row, Col} from 'reactstrap'
 import {popularMenuFood} from '../../assets/fake-data/product'
 import ProductCard from '../ProductCard/ProductCard'
+import '../../style/popular-menu.css'
 
 const PopularMenu = () => {
   return (
@@ -9,7 +10,7 @@ const PopularMenu = () => {
       <Container>
         <Row>
           <Col lg = '12'>
-           <h2>Popular Food menu</h2>        
+           <h2 className='popular__menu-title'>Popular Food menu</h2>        
           </Col>
           {
             popularMenuFood.map(item => (
